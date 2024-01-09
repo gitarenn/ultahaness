@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulang Tahun</title>
+    <link rel="icon" href="anas.jpg">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #4f5756;
+            padding: 0.3cm 2cm; 
+            color: rgb(255, 255, 255);
+            font-size: 2em;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-out;
+            border-radius: 30px;
+            font-family: monospace;
+            text-shadow: 
+            0 0 3px cyan,
+            0 0 6px cyan,
+            0 0 6px cyan,
+            0 0 9px cyan
+            ;
+        }
+
+        .img {
+            border-radius: 50%;
+            max-width: 160px;
+            height: auto;
+            margin-top: 20px;
+            border: 2px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: pulse 1.5s infinite alternate;
+        }
+        img {
+            max-width: 160px;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        h2 {
+            color: #d9d9d9;
+            margin-top: 30px;
+            animation: fadeIn 1s ease-out;
+            font-family: monospace;
+            font-size: 30px;
+            margin-bottom: 0;
+            text-shadow:
+            0 0 1px rgb(255, 162, 162),
+            0 0 3px rgb(255, 162, 162), 
+            0 0 3px rgb(255, 162, 162), 
+            0 0 4px rgb(255, 162, 162) ;
+        }
+
+        p {
+            color: #fff7f7;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-out;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.1); }
+        }
+    </style>
+    <script>
+        alert("WELCOME ANAS !");
+        alert("THIS IS SPECIAL FOR U!");
+    </script>
+</head>
+<body>
+
+    <header>
+        Happy Birthday! 
+    </header>
+    
+    <img src="anas.jpg" alt="Foto Ulang Tahun" class="img">
+
+    <h2>Anastasya Sanderina Gracella</h2>
+    
+    <p>" Selamat bertambah umur bestie gue paling cantik! Kiranya sukacita dan berkat selalu menyertai lu ya Nas✨💜"
+    </p>
+    <img src="https://png.pngtree.com/png-clipart/20221122/ourmid/pngtree-happy-birthday-text-effect-png-image_241348.png" alt="">
+    <audio hidden controls autoplay loop id="myAudio" onclick="">
+        <source src="gita.mp3" type="audio/mp3">
+    </audio>
+    <script>const myAudio = document.getElementById("myAudio");
+        function playAudio() {
+            myAudio.play();
+        }</script>
+</body>
+</html>
